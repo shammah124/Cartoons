@@ -1,0 +1,224 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container {
+    height: 700px;
+}
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+}
+.nav-logo {
+    font-family: sans-serif;
+    margin-left: 55px;
+    color: rgb(223, 167, 223);
+    margin-top: 15px;
+    font-weight: bolder;
+}
+.nav-logo h1 {
+    font-size: 25px;
+}
+.nav-logo h2 {
+    font-size: 16px;
+    margin-top: -10px;
+    margin-left: 22px;
+}
+.nav-links ul {
+    display: flex;
+    margin-top: 5px;
+    list-style-type: none;
+    margin-right: 150px;
+}
+.nav-links ul li {
+    padding: 20px;
+}
+.nav-links li a {
+    text-decoration: none;
+    color: rgb(223, 167, 223);
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+}
+img {
+    width: 250px;
+    height: 250px;
+}
+.main {
+    display: flex;
+    width: 100%;
+    background: linear-gradient(rgb(207, 135, 207) 50%, rgb(223, 167, 223) 50%);
+    height: 600px;
+}
+.cat {
+    width: 60%;
+    margin: auto 0 auto 150px;
+}
+.cat img {
+    width: 800px;
+    height:500px;
+}
+.pink-div1 {
+    position: relative;
+    width: 40%;
+}
+.pink-div {
+    width: 100%;
+    margin-top: 45%;
+    margin-left: -200px;
+    height: 250px;
+    background: rgb(165, 122, 165);
+    color: white;
+    text-align: center;
+    border-radius: 3px;
+    padding-top: 70px;
+    font-family: sans-serif;
+}
+.pink-div h3 {
+    padding: 3px;
+    font-weight: bolder;
+}
+.zoom {
+    position: absolute;
+    right: 195px;
+    height:20px;
+    bottom: 0px;
+}
+.zoom ul {
+    list-style-type: none;
+    display: flex;
+    background: rgb(165, 122, 165);
+    width: 45px;
+    border-radius: 2px;
+}
+.zoom ul li {
+    color: white;
+    padding-left: 5px;
+}
+#min {
+    padding-left: 15px;
+}
+.main-2 {
+    width: 100%;
+    height: 510px;
+}
+.text {
+    width: 50%;
+    margin: 40px auto -25px auto;
+    text-align: center;
+    height: 150px;
+    font-family: sans-serif;
+}
+.gallery {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+.cat2 {
+    margin-right: 15px;
+    background: rgb(207, 135, 207);
+    height: 320px;
+}
+.text2 {
+    margin-top: 10px;
+    margin-left: 10px;
+    color: white;
+    font-family: sans-serif;
+}
+.footer {
+    background: rgb(207, 135, 207);
+    height: 30px;
+    margin-bottom: 10px;
+}
+@media screen and (max-width: 950px) {
+    .nav {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        /* margin: auto; */
+        height: 200px;
+    }
+    .nav-links ul {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .nav-links ul li {
+        padding: 7px;
+    }
+    .nav-logo {
+        margin-left: 25px;
+        color: rgb(223, 167, 223);
+        margin-top: 10px;
+    }
+    .main {
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        margin-top: 15px;
+        height: 400px;
+    }
+    img {
+        width: 100%;
+        height: 250px;
+    }
+    .cat {
+        width: 100%;
+        height: 500px;
+        margin: 20px 0px auto 20px;
+    }
+    .cat img {
+        width: 90%;
+        height:250px;
+    }
+    .pink-div1 {
+        width: 100%;
+    }
+    .pink-div {
+        /* display: flex; */
+        width: 60%;
+        margin: auto;
+        margin-bottom: 350px;
+        margin-top: -100px;
+        height: 170px;
+        border-radius: 3px;
+        padding-top: 20px;
+    }
+    .pink-div h3 {
+        padding: 3px;
+    }
+    .zoom {
+        position: absolute;
+        right: 75px;
+        bottom: 295px;
+        height: 20px;
+    
+    }
+    .main-2 {
+        width: 100%;
+        height: 1200px;
+    }
+    .text {
+        margin-bottom: 55px;
+    }
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        margin: auto 25px;
+    }
+    .cat2 {
+        margin-bottom: 15px;
+        background: rgb(207, 135, 207);
+        height: 320px;
+    }
+    .footer {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+}
